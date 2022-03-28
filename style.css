@@ -3,7 +3,7 @@ body{
     font-family: sans-serif;
 }
 
-.header, .header-nav, .header-content, .link-list, .information, .information-item-section,.information-item .testimonial, .cta, .footer{
+.header, .header-nav, .header-content, .link-list, .information, .information-item-section,.information-item, .testimonial, .testimonial-author, .testimonial-quote, .cta, .footer{
     display: flex;
 }
 
@@ -127,4 +127,32 @@ a, .header .header-paragraph{
 }
 
 /* Testimonial Styling */
+.testimonial{
+    height: 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
+.testimonial-quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    width: 400px;
+    justify-content: flex-start;
+}
+
+.testimonial-author{
+    color: #F28C28;
+    font-weight: 900;
+    width: 400px;
+    font-size: 24px;
+    justify-content: flex-end;
+}
+
+.testimonial p{
+    margin: 0;
+}
+
+/* Contact Styling */
