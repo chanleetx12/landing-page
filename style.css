@@ -3,7 +3,7 @@ body{
     font-family: sans-serif;
 }
 
-.header, .header-nav, .header-content, .link-list, .information, .testimonial, .cta, .footer{
+.header, .header-nav, .header-content, .link-list, .information, .information-item-section,.information-item .testimonial, .cta, .footer{
     display: flex;
 }
 
@@ -19,10 +19,11 @@ body{
     background-color: #EFE7EB;
 }
 
+/* Header Styling */
 .header{
     padding: 10px 120px;
     flex-direction: column;
-    
+    gap: 12px;
 }
 
 .header-nav{
@@ -71,6 +72,7 @@ a, .header .header-paragraph{
     justify-content: space-between;
     align-items: center;
     flex: 1;
+    
 }
 
 .header-information{
@@ -92,3 +94,37 @@ a, .header .header-paragraph{
     border: 2px solid #975818 ;
     border-radius: 12px;
 }
+
+/* Information Styling */
+.information{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    height: 400px;
+}
+
+.information-title{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #F28C28;
+}
+
+.information-item-section{
+    gap: 12px;
+}
+
+.information-item{
+    flex-direction: column;
+    text-align: center;
+}
+
+.information .nft{
+    height: 150px;
+    width: 150px;
+    border: 2px solid #975818 ;
+    border-radius: 50%;
+}
+
+/* Testimonial Styling */
+
