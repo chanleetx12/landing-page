@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: sans-serif;
 }
 
 .header, .header-nav, .header-content, .link-list, .information, .testimonial, .cta, .footer{
@@ -7,7 +8,7 @@ body{
 }
 
 .header, .footer{
-    background-color: #1F2937;
+    background-color: #F28C28;
 }
 
 .information, .cta{
@@ -20,13 +21,14 @@ body{
 
 .header{
     padding: 10px 120px;
+    flex-direction: column;
+    
 }
 
 .header-nav{
     align-items: center;
     flex: 1;
     justify-content: space-between;
-    margin: 8px;
 }
 
 .header ul{
@@ -42,14 +44,51 @@ body{
     list-style-type: none;
 }
 
-a{
+a, .header .header-paragraph{
     color: #e5e7eb;
     text-decoration: none;
 }
 
 .header .logo{
-    font-family: sans-serif;
+    
     color: #F9Faf8;
     font-size: 1.5em;
     font-weight: bold;
+}
+
+.header .header-bold{
+    font-size: 36px;
+    font-weight: 1200;
+    color: #F9Faf8;
+    margin: 0;
+}
+
+.header .header-paragraph{
+    margin: 0;
+}
+
+.header-content{
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.header-information{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0;
+    gap: 12px;
+}
+
+.fox{
+    width: 400px;
+    height: 400px;
+}
+
+.signup{
+    width: 120px;
+    color: #975818;
+    border: 2px solid #975818 ;
+    border-radius: 12px;
 }
