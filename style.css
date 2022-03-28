@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+}
+
+.header, .header-nav, .header-content, .link-list, .information, .testimonial, .cta, .footer{
+    display: flex;
+}
+
+.header, .footer{
+    background-color: #1F2937;
+}
+
+.information, .cta{
+    background-color: #FFFFFF;
+}
+
+.testimonial{
+    background-color: #EFE7EB;
+}
+
+.header{
+    padding: 10px 120px;
+}
+
+.header-nav{
+    align-items: center;
+    flex: 1;
+    justify-content: space-between;
+    margin: 8px;
+}
+
+.header ul{
+    padding: 0;
+    margin: 0;
+}
+
+.header .link-list{
+    gap: 24px
+}
+
+.header .link{
+    list-style-type: none;
+}
+
+a{
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.header .logo{
+    font-family: sans-serif;
+    color: #F9Faf8;
+    font-size: 1.5em;
+    font-weight: bold;
+}
