@@ -90,6 +90,9 @@ a, .header .header-paragraph{
 .fox{
     width: 400px;
     height: 400px;
+    border-radius: 50%;
+    border: 2px solid #975818;
+    margin-top: 24px;
 }
 
 .signup{
